@@ -1,12 +1,17 @@
-
 .container {
   width: 100%;
 }
 
 .heading {
-  background-color: greenyellow;
+  background-color: #49d75f;
   width: 100%;
   color: #000;
   margin: 0 auto;
   text-align: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

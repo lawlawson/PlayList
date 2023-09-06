@@ -1,9 +1,11 @@
-import React from 'react'
+import './Playlist.css';
 
-const Playlist = () => {
+function Playlist() {
   return (
-    <div>Playlist</div>
-  )
+    <div className='container-playlist'>
+      <h2>Playlist</h2>
+    </div>
+  );
 }
 
-export default Playlist
+export default Playlist;
